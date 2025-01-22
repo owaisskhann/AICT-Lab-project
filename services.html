@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Importing Waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- Importing Style Sheets -->
+    <link rel="stylesheet" href="./styles/pre-loader.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/footer1.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="./styles/scroll.css">
+
+    <!-- Importing Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Importing Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
+    <!-- Importing Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <!-- Importing Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Importing Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Importing Animation Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!-- Website title will appear in browser window -->
+    <title>Services | Tomasso</title>
+
+</head>
+
+<body>
+
+    <!-- ========================================Container starts============================================== -->
+
+    <div class="container">
+
+        <!-- =======================================Header starts============================================== -->
+
+        <header class="header-container">
+            <div class="nav-logo-container">
+                <a href="./index.html">
+                    <img src="../CG-PH01/images/logo.png.png" height="50px" alt="Tomasso Barbershop Logo">
+                </a>
+            </div>
+            <nav class="nav-menu-container">
+                <ul>
+                    <li><a href="./index.html" class="home_link">Home</a></li>
+                    <li><a href="./about.html" class="about_link">About</a></li>
+                    <li><a href="./services.html" class="service_link">Services</a></li>
+                    <li><a href="./gallery.html" class="pricing_link">Gallery</a></li>
+                    <li><a href="./contact-us.html" class="contact_link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-button-container">
+                <a href="./registration.html">Registration</a>
+              </div>
+        </header>
+
+        <!-- ==========================================Header ends============================================= -->
+
+        <!-- ==========================================Main starts============================================= -->
+
+        <main class="main-container">
+
+            <!-- ========================================Section: 01 starts==================================== -->
+
+            <section class="hero-container hero-section section-container-hero">
+                <div class="hero-image">
+                    <h1 class="hero-heading">OUR SERVICES</h1>
+                </div>
+            </section>
+            <!-- =======================================Section: 01 ends======================================= -->
+
+            <!-- =======================================Section: 02 starts===================================== -->
+
+            <section class="banner-container">
+                <div class="banner-content-container">
+                    <h2>GET READY TO LOOK HANDSOME <br> AGAIN!</h2>
+                    <div class="banner-button-container">
+                        <a href="./contact-us.html">CHECK OUT OUR DEALS</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======================================Section: 02 ends======================================== -->
+
+            <!-- ========================================Section: 03 starts==================================== -->
+
+
+            <section class="service-container">
+                <h2 class="service-heading">OUR <span>SERVICES</span></h2>
+                <article class="service-grid">
+                    <!-- Card 1 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img1.jpeg" alt="Haircut Deluxe Service">
+                            <div class="overlay">
+                                <h3>Haircut Deluxe</h3>
+                                <p>Experience the art of grooming at its finest with our men's haircut service.</p>
+                                <p>Price: PKR 2500</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/sevice-img2.jpeg" alt="Deluxe Beard Trim Service">
+                            <div class="overlay">
+                                <h3>Deluxe beard Shave</h3>
+                                <p>Experience the ultimate relaxation and grooming with our shave service.</p>
+                                <p>Price: PKR 1500</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img3.jpeg" alt="Beard Trim Service">
+                            <div class="overlay">
+                                <h3>Deluxe beard trim</h3>
+                                <p>Our Signature Service offers expert beard grooming by our skilled barbers.</p>
+                                <p>Price: PKR 2000</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img4.jpeg" alt="Shave & Facial Service">
+                            <div class="overlay">
+                                <h3>Shave & Facial</h3>
+                                <p>Indulge in luxury with our Men's Shave & Facial, a revitalizing experience.</p>
+                                <p>Price: PKR 3500</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img5.jpeg" alt="Deluxe Hair Color Service">
+                            <div class="overlay">
+                                <h3>Delxue Hair Color</h3>
+                                <p>Indulge in luxury with our Men's Hair Color, a revitalizing experience.</p>
+                                <p>Price: PKR 4000</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img6.jpeg" alt="Deluxe Head Massage Service">
+                            <div class="overlay">
+                                <h3>Deluxe Head Massage</h3>
+                                <p>Indulge in luxury with our Head Massage, a revitalizing experience that leaves you
+                                    looking sharp.</p>
+                                <p>Price: PKR 3000</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 7 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img7.jpeg" alt="Men's Manicure Service">
+                            <div class="overlay">
+                                <h3>Manicure</h3>
+                                <p>Indulge in luxury with our Men's Menicure, a revitalizing experience.</p>
+                                <p>Price: PKR 2500</p>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 8 -->
+                    <article class="service-card">
+                        <div class="card-image">
+                            <img src="./images/service-img8.jpeg" alt="Men's Pedicure Service">
+                            <div class="overlay">
+                                <h3>Pedicure</h3>
+                                <p>Indulge in luxury with our Men's Pedicure, a revitalizing experience that leaves you
+                                    looking sharp.</p>
+                                <P>Price: PKR 3500</P>
+                                <a href="./contact-us.html" class="book-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </article>
+
+            </section>
+
+
+            <!-- =======================================Section: 03 ends====================================== -->
+
+            <!-- ========================================Section: 04 starts==================================== -->
+
+            <section class="contact-container">
+                <article class="forms">
+                    <h2 class="f-heading">MAKE AN <span>APPOINTMENT</span></h2>
+                    <form action="./alert.html" method="post" id="signup_form">
+
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" placeholder="Please Enter Your Full Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="user_email" placeholder="Please Enter Your Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="user_phone" placeholder="Enter Your Phone Number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">Select Your City:</label>
+                            <select id="city" name="user_city" required>
+                                <option value="">-- Select a City --</option>
+                                <option value="karachi">Karachi</option>
+                                <option value="lahore">Lahore</option>
+                                <option value="islamabad">Islamabad</option>
+                                <option value="rawalpindi">Rawalpindi</option>
+                                <option value="faisalabad">Faisalabad</option>
+                                <option value="multan">Multan</option>
+                                <option value="quetta">Quetta</option>
+                                <option value="peshawar">Peshawar</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group" >
+                            <label for="appointmentDate">Select your reservation date</label>
+                            <input type="date" id="appointmentDate" name="reservation_date"
+                                placeholder="Please Select your reservation date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Select Your Service:</label>
+                            <select id="service" name="user_service" required>
+                                <option value="">-- Select a Service --</option>
+                                <option value="haircut">Haircut</option>
+                                <option value="shave">Shave</option>
+                                <option value="haircut_shave">Haircut & Shave</option>
+                                <option value="facial">Facial</option>
+                                <option value="massage">Massage</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bio">Any additional service you want:</label>
+                            <textarea id="bio" name="user_bio"
+                                placeholder="Any additional service you want:"></textarea>
+                        </div>
+
+                        <button type="submit">SUBMIT REQUEST</button>
+
+                    </form>
+                </article>
+            </section>
+
+            <!-- =======================================Section: 04 ends======================================= -->
+
+        </main>
+
+
+        <!-- ============================================Main ends============================================= -->
+
+
+        <!-- ========================================Footer starts============================================= -->
+
+        <footer class="footer-container">
+            <div class="footer-main">
+                <div class="footer-content-container">
+                    <div class="footer-logo">
+                        <img src="./images/logo.png.png" alt="footer-logo">
+                    </div>
+                    <div class="footer-text">
+                        <p>Tomasso Barbershop embodies the perfect fusion of style and confidence, where every haircut
+                            is meticulously crafted by the skilled hands of our experienced barbers.</p>
+                    </div>
+
+                    <form action="your-submission-url" method="POST">
+                        <div class="footer-input-email">
+                            <input type="email" name="email" id="my-email" placeholder="Email Address">
+                        </div>
+                        <div class="footer-subscribe-button">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="footer-quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li>
+                            <span><i class="fa-solid fa-caret-right"></i></span>
+                            <a href="./index.html">HomePage</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-caret-right"></i></span>
+                            <a href="./about.html">About Us</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-caret-right"></i></span>
+                            <a href="./services.html">Our Services</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-caret-right"></i></span>
+                            <a href="./pricing.html">Our Packages</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-caret-right"></i></span>
+                            <a href="./index.html">Get a donation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-company-details">
+                    <h3>Our Salon</h3>
+                    <p>OPEN </br> 24/7</p>
+                    <p>08:00-21:00</p>
+                    <address class="contact-info">
+                        <p>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            DHA Phase VI, Bukhari Comercial, Karachi
+                        </p>
+                        <p>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <a href="mailto:potongin@gmail.com">tomasso@gmail.com</a>
+                        </p>
+                        <p>
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <a href="tel:+6285112345678">(+92) 333 1234 567</a>
+                        </p>
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+        <!-- =============================================Footer ends=========================================== -->
+
+    </div>
+
+    <!-- ===========================================Container ends============================================== -->
+
+    <script src="./scripts/script.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            // Multiple Items Slider
+            $('.multiple-items-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+
+            });
+
+        })
+
+    </script>
+
+
+    <!-- jQuery Validation Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <!-- jQuery Validation Additional Methods -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+
+
+    <!-- Importing  Local Scripts Files -->
+    <script src="./scripts/services.js"></script>
+    <script src="./scripts/animation.js"></script>
+
+</body>
+
+</html>
