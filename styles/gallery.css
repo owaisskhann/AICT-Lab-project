@@ -1,0 +1,288 @@
+/* ========================================Importing Fonts===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ============================================================================================================- */
+
+/*============================================= Variables======================================================= */
+
+:root {
+  --primarycolor: #FFFFFF;
+  --secondarycolor: #FF5151;
+  --secondarycolor: #FF5151;
+  --tertiarycolor: #6E6E6E;
+  --quaternarycolor: #FF8585;
+  --neutralgrey: (lightgrey);
+  --backgroundcolor: rgba(255, 255, 255, 0.4);
+  --transparentcolor: transparent;
+  --charcoal: #36454F;
+  --mainheading: #36454F;
+  --jetblack: #36454F;
+  --sectionColor: #252525;
+  --font-family: "Inter", sans-serif;
+  --font-size-h1: 2.5em;
+  --font-size-h2: 2em;
+  --font-size-h3: 1.75em;
+  --font-size-h4: 1.5em;
+  --font-size-h5: 1.25em;
+  --font-size-h6: 1em;
+  --para-size: 1em;
+}
+
+/* ============================================================================================================- */
+
+/* ==================================================Resets===================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  max-width: 100%;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==============================================================================================================*/
+
+/* =============================================== Base Styles ==================================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--font-family);
+  line-height: 1;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  letter-spacing: 0px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+img {
+  display: block;
+}
+
+section {
+  height: 100vh;
+  margin: 0px auto;
+  border: 1px solid #6E6E6E;
+}
+
+.container {
+  height: auto;
+}
+
+.list-item ul li {
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: var(--tertiarycolor);
+  line-height: 25px;
+  margin: 10px 0;
+}
+
+.list-item ul li span {
+  background-color: var(--secondarycolor);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list-item ul li span i {
+  color: var(--primarycolor);
+  text-align: center;
+  padding: 5px;
+}
+
+.button-reservation-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-reservation-container a {
+  padding: 10px 20px;
+  background-color: var(--secondarycolor);
+  color: var(--primarycolor);
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: var(--font-family);
+  line-height: 15.7px;
+  letter-spacing: 1.5px;
+  transition: background-color 0.6s ease, color 0.6s ease, transform 0.6s ease;
+}
+
+.button-reservation-container a:hover {
+  background-color: var(--primarycolor);
+  color: var(--secondarycolor);
+  transform: scale(1.05);
+}
+
+
+/* =============================================================================================================*/
+
+/* =============================================================================================================*/
+
+/* Header CSS is kept in "header.css" */
+
+/* =============================================================================================================*/
+
+
+/* =============================================================================================================*/
+
+/* Hero Section */
+
+.container .main-container .hero-container {
+  position: relative;
+  z-index: 2;
+}
+
+.container .main-container .hero-container .hero-image {
+  background: url('../images/about-bgImage.jpg') no-repeat center/cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.container .main-container .hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(36, 36, 36, 0.3);
+  z-index: 1;
+}
+
+.container .main-container .hero-container .hero-image .hero-heading {
+  color: var(--primarycolor);
+  font-size: 3.5em;
+  z-index: 1;
+  position: relative;
+  font-size: var(--font-size-h1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 10px;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ==============================================================================================================*/
+.gallery{
+  background-color: black;
+  padding: 20px;
+}
+.parent-container,
+.child-container {
+  display: flex;
+}
+.gallery-h2{
+  padding: 20px;
+}
+.gallery-h2 h2{
+line-height: 2em;
+  color: white;
+  font-size: var(--font-size-h2);
+  text-align: center;
+}
+.parent-container {
+  background-color: #FF5151;
+  width: 96%;
+  justify-content: center;
+  gap: 30px 30px;
+  padding: 40px;
+  margin: 0px 32px;
+
+}
+
+.child-container {
+  width: 30%;
+  height: auto;
+  gap: 30px 30px;
+  flex-direction: column;
+}
+
+.child-container img {
+  transition: all 1s ease-in-out 0s;
+  box-shadow: 2px 2px 20px gray, inset 2px 2px 10px lightgray;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.child-container img:hover {
+  box-shadow: 4px 4px 25px black, inset 2px 2px 2px 10px rgb(0, 0, 20);
+  transform: scale(1.1);
+
+
+}
+
+.greeting {
+  text-align: center;
+  color: lightblue;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+.greeting,
+.fa-brands {
+  text-shadow: 2px 2px 10px lightgray;
+
+}
+
+
+/* =============================================================================================================*/
+
+/* Footer CSS is kept in "header.css" */
+
+/* =============================================================================================================*/
